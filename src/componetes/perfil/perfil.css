@@ -1,0 +1,77 @@
+.background {
+    background-image: url('../imagenes/fondos.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .nom {
+    font-size: 40px;
+    margin: 0;
+    font-family: Copperplate Gothic;
+    color: #c47c4b;
+    position: absolute;
+    top: 160px;
+    
+    
+  }
+  h2:hover  {
+    transform: scale(1.2);
+    
+  }
+  
+  .image-wrapper {
+    margin-top: 10px;
+    position: relative;
+       
+  }
+  
+  .rounded-image {
+    border-radius: 50%;
+    width: 150px; /* Ajusta el tamaño de la imagen redonda según tus preferencias */
+    height: 150px;
+    position: absolute;
+    top: -160px; /* Ajusta la posición de la imagen redonda según tus preferencias */
+    left: calc(50% - 80px); /* Centra la imagen redonda horizontalmente */  
+    /* Agrega la animación */
+    animation: pulso 1.5s infinite alternate;
+  }
+  
+  /* Define la animación "pulso" */
+  @keyframes pulso {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 20px rgba(128, 0, 128, 0.5);
+    }
+    100% {
+      transform: scale(2.1);
+      box-shadow: 0 0 30px rgba(116, 3, 13, 0.7); /* Resplandor más intenso */
+    }
+  }
+
+  .boton {
+    position: relative;
+    top: 70px;
+    padding: 10px 20px;
+    background-color: #be9f72;
+    color: #060505;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    
+  }
+  
+  .boton:hover {
+    background-color: #b17b56; /* Cambia el color al pasar el cursor sobre el botón */
+  }
+  

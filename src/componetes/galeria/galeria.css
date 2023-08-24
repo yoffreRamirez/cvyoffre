@@ -1,0 +1,15 @@
+/* Galeria.css */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .cuadro {
+    flex: 0 1 calc(33.33% - 10px); /* Para 3 cuadros por fila, con espaciado */
+    margin-bottom: 30px; /* Espaciado inferior entre los cuadros */
+    background-color: #ccc;
+    padding: 30px;
+    box-sizing: border-box;
+    
+  }

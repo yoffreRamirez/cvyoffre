@@ -1,0 +1,24 @@
+/* Nav.css */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo translúcido */
+  color: #0e0e0e; /* Color de texto */
+  height: 50px; /* Altura de la barra de navegación */
+  position: fixed; /* Fijar la barra de navegación en la parte superior */
+  top: -50px; /* Ocultar la barra de navegación inicialmente */
+  width: 100%;
+  transition: top 0.3s; /* Agregar una transición suave */
+  z-index: 1000; /* Asegurarse de que esté por encima de otros elementos */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.navbar.visible {
+  top: 0; /* Mostrar la barra de navegación cuando sea visible */
+}

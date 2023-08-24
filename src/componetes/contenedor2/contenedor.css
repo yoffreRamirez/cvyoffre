@@ -1,0 +1,32 @@
+/* contenedor.css */
+.contenedor-principal {
+    display: flex;
+    margin: 90px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .titulo {
+    flex: 1;
+    background-color: lightblue;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Coloca los elementos en columnas */
+  }
+  
+  .fecha {
+    font-size: 14px; /* Tamaño de fuente para la fecha */
+  }
+  
+  .nombre {
+    font-size: 18px; /* Tamaño de fuente más grande para el nombre */
+    
+  }
+  
+  .parrafo {
+    flex: 3;
+    background-color: lightgray;
+    padding: 30px;
+  }

@@ -1,0 +1,62 @@
+/* Estilo para centrar todo en la página */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    background-color: #f0f0f0; /* Cambia esto al color de fondo que desees */
+  }
+  
+  /* Estilo para los botones */
+  .botones-container {
+    display: flex;
+    gap: 10px; /* Espacio entre los botones */
+  }
+  
+  .round-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #99c9e8;
+    color: #3498db; /* Color del icono */
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    
+  }
+  
+  .round-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilo para la galería */
+  .galeria {
+    height: auto;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .galeria img {
+    width: 430px; /* Dividir en 2 columnas con espacio de 20px entre ellas */
+    height: 400px; /* Altura automática para mantener la relación de aspecto */
+    border-radius: 10px; /* Redondear las esquinas de las imágenes */
+    border: 2px solid #3498db; /* Agregar un borde con el color que desees */
+  }
+  
+  
+  
+  
+  

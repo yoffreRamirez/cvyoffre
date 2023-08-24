@@ -1,0 +1,19 @@
+h1{
+  text-align: center;
+}
+.listaRS {
+color: rgb(62, 62, 227);
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.RS {
+  list-style-type: none; /* Quita los puntos de lista */
+  margin: 0; /* Elimina los márgenes predeterminados */
+  padding: 0; /* Elimina el relleno predeterminado */
+}
+
+.RS + .RS {
+  margin-left: 90px; /* Espacio de 20px entre elementos ul hermanos */
+}

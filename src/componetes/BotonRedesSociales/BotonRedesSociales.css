@@ -1,0 +1,40 @@
+
+.contenedor {
+  margin-top: 10px;
+  position: relative;
+     
+}
+
+.imagen-fondo {
+  border-radius: 50%;
+  width: 80px; /* Ajusta el tamaño de la imagen redonda según tus preferencias */
+  height: 80px;
+  position: absolute;
+  top: -55px; /* Ajusta la posición de la imagen redonda según tus preferencias */
+  left: auto /* Centra la imagen redonda horizontalmente */
+}
+.descripcion {
+  position: absolute;
+  bottom: 110px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  color: rgb(12, 12, 12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Inicialmente oculto */
+  transition: opacity 0.2s;
+}
+
+/* Hacer aparecer la descripción al pasar el cursor sobre la imagen */
+.contenedor:hover .descripcion {
+  opacity: 1;
+}
+
+/* Efecto de pulsación al pasar el cursor */
+.imagen-fondo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(128, 0, 128, 0.7); /* Resplandor más intenso */
+}
+
